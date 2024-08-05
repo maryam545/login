@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #66c4ca;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  margin-top: 100px;
+  width: 400px;
+  height: 450px;
+
+  position: relative;
+}
+.circle {
+  color: #747474;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, #202020 50%, #313131 50%);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h3 {
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-top: -30px;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  color: #cacaca;
+  font-weight: 100;
+}
+.input {
+  width: 250px;
+  margin: 10px 0;
+  margin-right: 50px;
+}
+.input input {
+  width: 100%;
+  /* padding: 20px; */
+  padding-left: 40px;
+  height: 60px;
+  border-radius: 8px;
+  margin: 6px;
+  color: #fff;
+  background-color: #747474;
+  opacity: 0.5;
+  border: 2.5px solid #c0c0c0;
+  position: relative;
+}
+
+.input input::placeholder {
+  color: #c0c0c0;
+}
+.button {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  right: 0;
+  bottom: -1;
+  background-color: #c43030;
+  opacity: 0.95;
+  font-size: 20px;
+  border: none;
+  color: #fff;
+}
+.user-icon img {
+  position: absolute;
+  width: 20px;
+  top: 170px;
+  left: 68px;
+}
+.pass-icon img {
+  position: absolute;
+  width: 20px;
+  top: 260px;
+  left: 68px;
+}
